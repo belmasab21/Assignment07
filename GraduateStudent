@@ -1,0 +1,14 @@
+public class GraduateStudent extends Student implements Employee {
+    public int salary;
+    public GraduateStudent(String firstName, String lastName, int idNumber, Program major, Program minor, double gpa, int salary){
+    super(firstName, lastName, idNumber, major, minor, gpa);    
+    this.salary = salary;
+    }
+    @Override
+    public void getSalary() {
+    
+    }
+    public void setSalary() {
+        
+    }
+}
