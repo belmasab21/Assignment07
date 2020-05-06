@@ -1,0 +1,39 @@
+public class Student extends Person {
+private Program major;
+private Program minor;
+double gpa;
+ public Student(String firstName, String lastName, int idNumber, Program major, Program minor, double gpa) {
+     super(firstName, lastName, idNumber);
+     this.major = major;
+     this.minor = minor;
+     this.gpa = gpa;
+    }
+   
+ public String toString() {
+     return firstName + " " + lastName + " [" + major + "/" + minor + "] " + " GPA:" + gpa;  
+    }
+ public String getFirstName() {
+     return firstName;
+    }
+ public String getLastName() {
+     return lastName;
+    }
+ public Program getMajor() {
+     return major;
+    }
+ public Program getMinor() {
+     return minor;
+    }
+ public double getGPA() {
+     return gpa;
+    }
+ public void setMajor(Program newMajor) {
+     this.major = newMajor;
+    }
+ public void setMinor(Program newMinor) {
+     this.minor = newMinor;
+    }
+ public void setGPA(int newGPA) {
+     this.gpa = newGPA;
+    }
+}
