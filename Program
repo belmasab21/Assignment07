@@ -1,0 +1,7 @@
+public enum Program {
+ COMPSCI, 
+ MAGD,
+ MATH,
+ ENGLISH, 
+ BIOLOGY
+}
